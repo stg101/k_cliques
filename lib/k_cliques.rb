@@ -1,6 +1,7 @@
 require "k_cliques/version"
 
 module KCliques
-  class Error < StandardError; end
-  # Your code goes here...
+  def self.hello
+    'hello'
+  end
 end

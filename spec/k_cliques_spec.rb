@@ -6,4 +6,8 @@ RSpec.describe KCliques do
   it "does something useful" do
     expect(false).to eq(true)
   end
+
+  it "says hello" do
+    expect(KCliques.hello).to eq('hello')
+  end
 end
